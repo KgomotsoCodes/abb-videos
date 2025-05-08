@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Video with Timestamps</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://www.youtube.com/iframe_api"></script>
+</head>
+<body>
+
+  <div class="container">
+    <div class="video">
+      <div id="player"></div>
+    </div>
+    <div class="timestamps">
+      <h2>Timestamps</h2>
+      <ul>
+        <li><a href="#" onclick="seekTo(80); return false;">01:20 Introduction</a></li>
+        <li><a href="#" onclick="seekTo(220); return false;">03:40 Sleep</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
