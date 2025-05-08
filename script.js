@@ -2,7 +2,7 @@ let player;
 
 function onYouTubeIframeAPIReady() {
   player = new YT.Player('player', {
-    height: '360',
+    height: 'auto',
     width: '100%',
     videoId: '9d26hao-twA',
     playerVars: { playsinline: 1 }
